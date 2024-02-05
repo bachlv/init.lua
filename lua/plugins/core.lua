@@ -69,6 +69,7 @@ return {
   {
 
     "akinsho/bufferline.nvim",
+    keys = { { "<leader>.", "<cmd>BufferLinePick<cr>", desc = "Pick buffer" } },
     opts = {
       options = {
         style_preset = {
