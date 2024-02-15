@@ -4,3 +4,8 @@
 
 vim.keymap.set({ "n", "v" }, "<C-d>", "<C-d>zz", { silent = true })
 vim.keymap.set({ "n", "v" }, "<C-u>", "<C-u>zz", { silent = true })
+
+vim.keymap.del("n", "<C-/>")
+vim.keymap.set("n", "<C-/>", function()
+  require("lazyvim.util").terminal(nil, { border = "rounded" })
+end, { desc = "Terminal (root dir)" })
