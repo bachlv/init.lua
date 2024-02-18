@@ -1,3 +1,5 @@
+vim.opt.pumblend = 0
+
 return {
   {
     "rose-pine/neovim",
@@ -31,7 +33,6 @@ return {
           NotifyERRORBorder = { bg = "base" },
           NotifyINFOBorder = { bg = "base" },
           NotifyTRACEBorder = { bg = "base" },
-          NotifyWARNBorder = { bg = "base" },
         },
       })
     end,
