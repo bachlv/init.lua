@@ -4,8 +4,16 @@ return {
   opts = {
     options = {
       style_preset = {
-        require("bufferline").style_preset.no_bold,
         require("bufferline").style_preset.no_italic,
+      },
+      offsets = {
+        {
+          filetype = "neo-tree",
+          text = "File Explorer",
+          highlight = "Directory",
+          text_align = "left",
+          separator = "│",
+        },
       },
     },
   },
