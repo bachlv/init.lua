@@ -33,6 +33,11 @@ return {
           NotifyERRORBorder = { bg = "base" },
           NotifyINFOBorder = { bg = "base" },
           NotifyTRACEBorder = { bg = "base" },
+          NotifyWARNBorder = { bg = "base" },
+
+          -- Pmenu = { bg = "highlight_" },
+          CmpNormal = { bg = "base" },
+          CmpBorder = { fg = "muted", bg = "base" },
         },
       })
     end,
