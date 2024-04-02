@@ -38,6 +38,11 @@ return {
           -- Pmenu = { bg = "highlight_" },
           CmpNormal = { bg = "base" },
           CmpBorder = { fg = "muted", bg = "base" },
+
+          TreesitterContext = { bg = "surface" },
+          TreesitterContextLineNumber = { bg = "surface" },
+
+          StatusLine = { bg = "none" },
         },
       })
     end,

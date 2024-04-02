@@ -1,8 +1,8 @@
 vim.keymap.set({ "n", "v" }, "<C-d>", "<C-d>zz", { silent = true })
 vim.keymap.set({ "n", "v" }, "<C-u>", "<C-u>zz", { silent = true })
 
-vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv", { silent = true })
-vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv", { silent = true })
+vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv", { silent = true, desc = "Move selected lines up" })
+vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv", { silent = true, desc = "Move selected lines down" })
 
 vim.keymap.set("i", "<C-c>", "<Esc>")
 
