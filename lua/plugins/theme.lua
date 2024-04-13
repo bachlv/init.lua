@@ -12,14 +12,11 @@ return {
           TelescopeSelection = { fg = "text", bg = "surface" },
           TelescopeSelectionCaret = { fg = "love", bg = "surface" },
           TelescopeMultiSelection = { fg = "text", bg = "highlight_high" },
-
           TelescopeTitle = { fg = "base", bg = "love" },
           TelescopePromptTitle = { fg = "base", bg = "pine" },
           TelescopePreviewTitle = { fg = "base", bg = "iris" },
-
           TelescopePromptNormal = { fg = "text", bg = "overlay" },
           TelescopePromptBorder = { fg = "overlay", bg = "overlay" },
-
           TelescopePreviewBorder = { fg = "surface", bg = "surface" },
           TelescopePreviewNormal = { fg = "subtle", bg = "surface" },
 
@@ -43,6 +40,7 @@ return {
           TreesitterContextLineNumber = { bg = "surface" },
 
           StatusLine = { bg = "none" },
+          Visual = { bg = "highlight_high" },
         },
       })
     end,
