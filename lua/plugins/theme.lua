@@ -12,7 +12,7 @@ return {
           TelescopeSelection = { fg = "text", bg = "surface" },
           TelescopeSelectionCaret = { fg = "love", bg = "surface" },
           TelescopeMultiSelection = { fg = "text", bg = "highlight_high" },
-          TelescopeTitle = { fg = "base", bg = "love" },
+          TelescopeTitle = { fg = "base", bg = "gold" },
           TelescopePromptTitle = { fg = "base", bg = "pine" },
           TelescopePreviewTitle = { fg = "base", bg = "iris" },
           TelescopePromptNormal = { fg = "text", bg = "overlay" },
