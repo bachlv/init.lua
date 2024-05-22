@@ -4,6 +4,7 @@
     "lazyvim.plugins.extras.editor.navic",
     "lazyvim.plugins.extras.editor.trouble-v3",
     "lazyvim.plugins.extras.lang.tailwind",
+    "lazyvim.plugins.extras.lang.typescript",
     "lazyvim.plugins.extras.util.project"
   ],
   "news": {

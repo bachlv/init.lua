@@ -41,6 +41,8 @@ return {
 
           StatusLine = { bg = "none" },
           Visual = { bg = "highlight_high" },
+          FloatBorder = { bg = "base" },
+          NormalFloat = { bg = "base" },
         },
       })
     end,
