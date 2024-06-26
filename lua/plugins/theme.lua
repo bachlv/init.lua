@@ -33,16 +33,22 @@ return {
           NotifyWARNBorder = { bg = "base" },
 
           -- Pmenu = { bg = "highlight_" },
-          CmpNormal = { bg = "base" },
+          -- CmpNormal = { bg = "base" },
           CmpBorder = { fg = "muted", bg = "base" },
-
-          TreesitterContext = { bg = "surface" },
-          TreesitterContextLineNumber = { bg = "surface" },
-
+          --
+          -- TreesitterContext = { bg = "surface" },
+          -- TreesitterContextLineNumber = { bg = "surface" },
+          --
           StatusLine = { bg = "none" },
           Visual = { bg = "highlight_high" },
           FloatBorder = { bg = "base" },
           NormalFloat = { bg = "base" },
+          CursorLine = { bg = "surface" },
+
+          -- LspReferenceRead = { bg = "highlight_low" },
+          -- LspReferenceWrite = { bg = "highlight_low" },
+          -- LspReferenceText = { bg = "highlight_med" },
+          SnippetTabstop = {},
         },
       })
     end,

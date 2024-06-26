@@ -8,7 +8,7 @@ return {
       scrolloff = 0,
       col_offset = 0,
       side_padding = 1,
-      -- scrollbar = opts.scrollbar,
+      scrollbar = opts.scrollbar,
     }
     opts.window = {
       completion = window,
