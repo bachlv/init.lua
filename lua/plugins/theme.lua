@@ -43,7 +43,7 @@ return {
           Visual = { bg = "highlight_high" },
           FloatBorder = { bg = "base" },
           NormalFloat = { bg = "base" },
-          CursorLine = { bg = "surface" },
+          -- CursorLine = { bg = "surface" },
 
           -- LspReferenceRead = { bg = "highlight_low" },
           -- LspReferenceWrite = { bg = "highlight_low" },
