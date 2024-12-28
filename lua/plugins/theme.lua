@@ -6,7 +6,7 @@ return {
     name = "rose-pine",
     config = function()
       require("rose-pine").setup({
-        -- extend_background_behind_borders = true,
+        extend_background_behind_borders = true,
 
         enable = {
           terminal = true,
@@ -52,6 +52,8 @@ return {
         },
 
         highlight_groups = {
+          FloatBorder = { bg = "#0f0d15" },
+
           TelescopeBorder = { fg = "overlay", bg = "overlay" },
           TelescopeNormal = { fg = "subtle", bg = "overlay" },
           TelescopeSelection = { fg = "text", bg = "surface" },
@@ -65,12 +67,29 @@ return {
           TelescopePreviewBorder = { fg = "surface", bg = "surface" },
           TelescopePreviewNormal = { fg = "subtle", bg = "surface" },
 
-          DashboardHeader = { fg = "highlight_high" },
-          DashboardFooter = { fg = "highlight_high" },
+          NeoTreeFloatBorder = { fg = "muted", bg = "base" },
+          NeoTreeFloatNormal = { bg = "base" },
+          NeoTreeFloatTitle = { bg = "base" },
+
+          FzfLuaNormal = { bg = "#0f0d15" },
+          FzfLuaBorder = { bg = "#0f0d15" },
+
+          SnacksDashboardHeader = { fg = "muted" },
+          SnacksDashboardFooter = { fg = "muted" },
+          SnacksDashboardSpecial = { fg = "muted" },
+          SnacksDashboardDesc = { fg = "muted" },
+          SnacksDashboardIcon = { fg = "muted" },
+          SnacksDashboardKey = { fg = "muted" },
+          SnacksDashboardDir = { fg = "highlight_high" },
+          SnacksDashboardFile = { fg = "muted" },
+          SnacksDashboardTitle = { fg = "muted" },
+
           NotifyERRORBorder = { bg = "base" },
           NotifyINFOBorder = { bg = "base" },
           NotifyTRACEBorder = { bg = "base" },
           NotifyWARNBorder = { bg = "base" },
+
+          StatusLine = { bg = "none" },
 
           ["@property"] = { italic = false },
           ["@variable"] = { italic = false },
@@ -79,17 +98,6 @@ return {
           -- VertSplit = { fg = "muted", bg = "muted" },
         },
 
-        before_highlight = function(group, highlight, palette)
-          -- Disable all undercurls
-          -- if highlight.undercurl then
-          --     highlight.undercurl = false
-          -- end
-          --
-          -- Change palette colour
-          -- if highlight.fg == palette.pine then
-          --     highlight.fg = palette.foam
-          -- end
-        end,
         -- highlight_groups = {
         --
         --   -- BufferLineFill = { fg = "text", bg = "base" },
@@ -99,13 +107,9 @@ return {
 
         --
         --   -- Pmenu = { bg = "highlight_" },
-        --   -- CmpNormal = { bg = "base" },
-        --   CmpBorder = { fg = "muted", bg = "base" },
-        --   --
         --   -- TreesitterContext = { bg = "surface" },
         --   -- TreesitterContextLineNumber = { bg = "surface" },
         --   --
-        --   StatusLine = { bg = "none" },
         --   Visual = { bg = "highlight_high" },
         --   VisualBorder = { fg = "text", bg = "text" },
         --   FloatBorder = { bg = "base" },
