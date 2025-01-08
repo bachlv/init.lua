@@ -84,6 +84,8 @@ return {
           SnacksDashboardFile = { fg = "muted" },
           SnacksDashboardTitle = { fg = "muted" },
 
+          SnacksIndent = { fg = "highlight_med" },
+
           NotifyERRORBorder = { bg = "base" },
           NotifyINFOBorder = { bg = "base" },
           NotifyTRACEBorder = { bg = "base" },
@@ -96,32 +98,11 @@ return {
 
           -- Comment = { fg = "foam" },
           -- VertSplit = { fg = "muted", bg = "muted" },
+
+          -- BufferLineFill = { fg = "text", bg = "base" },
+          -- BufferLineIndicatorSelected = { fg = "iris", bg = "base" },
+          -- BufferLineOffsetSeparator = { fg = "muted", bg = "base" },
         },
-
-        -- highlight_groups = {
-        --
-        --   -- BufferLineFill = { fg = "text", bg = "base" },
-        --   BufferLineIndicatorSelected = { fg = "iris", bg = "base" },
-        --   BufferLineOffsetSeparator = { fg = "muted", bg = "base" },
-        --
-
-        --
-        --   -- Pmenu = { bg = "highlight_" },
-        --   -- TreesitterContext = { bg = "surface" },
-        --   -- TreesitterContextLineNumber = { bg = "surface" },
-        --   --
-        --   Visual = { bg = "highlight_high" },
-        --   VisualBorder = { fg = "text", bg = "text" },
-        --   FloatBorder = { bg = "base" },
-        --   NormalFloat = { bg = "base" },
-        --   -- Cursor = { bg = "base" },
-        --   -- CursorLine = { bg = "surface" },
-        --
-        --   -- LspReferenceRead = { bg = "highlight_low" },
-        --   -- LspReferenceWrite = { bg = "highlight_low" },
-        --   LspReferenceText = { bg = "pine" },
-        --   -- SnippetTabstop = {},
-        -- },
       })
     end,
   },
