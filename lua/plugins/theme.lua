@@ -61,8 +61,8 @@ return {
           -- VertSplit = { fg = "muted", bg = "muted" },
 
           -- BufferLineFill = { fg = "text", bg = "base" },
-          -- BufferLineIndicatorSelected = { fg = "iris", bg = "base" },
-          -- BufferLineOffsetSeparator = { fg = "muted", bg = "base" },
+          BufferLineIndicatorSelected = { fg = "iris", bg = "base" },
+          -- BufferLineOffsetSeparator = { fg = "love", bg = "love" },
         },
       })
     end,

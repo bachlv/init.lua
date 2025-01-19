@@ -7,16 +7,16 @@ return {
     "nvim-lspconfig",
     opts = {
       inlay_hints = { enabled = false },
-      servers = {
-        eslint = {
-          settings = {
-            workingDirectories = { mode = "auto" },
-            experimental = {
-              useFlatConfig = false,
-            },
-          },
-        },
-      },
+      -- servers = {
+      --   eslint = {
+      --     settings = {
+      --       workingDirectories = { mode = "auto" },
+      --       experimental = {
+      --         useFlatConfig = false,
+      --       },
+      --     },
+      --   },
+      -- },
     },
   },
 }
