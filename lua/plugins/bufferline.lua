@@ -3,6 +3,9 @@ return {
   keys = { { "<leader>.", "<cmd>BufferLinePick<cr>", desc = "Pick buffer" } },
   opts = {
     options = {
+
+      buffer_close_icon = "",
+      show_buffer_close_icon = false,
       style_preset = {
         require("bufferline").style_preset.no_italic,
       },

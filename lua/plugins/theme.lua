@@ -10,8 +10,6 @@ return {
         extend_background_behind_borders = false,
 
         highlight_groups = {
-          FloatBorder = { bg = "#0f0d15" },
-
           NeoTreeFloatBorder = { fg = "muted", bg = "base" },
           NeoTreeFloatNormal = { bg = "base" },
           NeoTreeFloatTitle = { bg = "base" },
@@ -21,9 +19,9 @@ return {
           NotifyTRACEBorder = { bg = "base" },
           NotifyWARNBorder = { bg = "base" },
 
-          FzfLuaBorder = { bg = "#0f0d15" },
-          FzfLuaNormal = { bg = "#0f0d15" },
-          FzfLuaTitle = { bg = "#0f0d15" },
+          FzfLuaBackdrop = { bg = "base" },
+          FzfLuaNormal = { bg = "base" },
+          FzfLuaTitle = { bg = "base" },
 
           SnacksDashboardHeader = { fg = "muted" },
           SnacksDashboardFooter = { fg = "muted" },
@@ -36,7 +34,7 @@ return {
           SnacksDashboardTitle = { fg = "muted" },
           SnacksIndent = { fg = "highlight_med" },
 
-          StatusLine = { bg = "none" },
+          StatusLine = { bg = "base" },
 
           TelescopeBorder = { fg = "overlay", bg = "overlay" },
           TelescopeNormal = { fg = "subtle", bg = "overlay" },
@@ -60,9 +58,30 @@ return {
           -- Comment = { fg = "foam" },
           -- VertSplit = { fg = "muted", bg = "muted" },
 
-          -- BufferLineFill = { fg = "text", bg = "base" },
+          BufferLineFill = { bg = "base" },
           BufferLineIndicatorSelected = { fg = "iris", bg = "base" },
-          -- BufferLineOffsetSeparator = { fg = "love", bg = "love" },
+          BufferLineBackground = { fg = "muted", bg = "base" },
+          BufferLineCloseButton = { fg = "muted", bg = "base" },
+          BufferLineSeparator = { fg = "highlight_med", bg = "base" },
+          BufferLineDevIconDefault = { fg = "muted", bg = "base" },
+          BufferLinePick = { fg = "love", bg = "base", bold = true },
+
+          BufferLineMiniIconsAzure = { fg = "muted", bg = "base" },
+          BufferLineMiniIconsRed = { fg = "muted", bg = "base" },
+          BufferLineMiniIconsBlue = { fg = "muted", bg = "base" },
+          BufferLineMiniIconsCyan = { fg = "muted", bg = "base" },
+          BufferLineMiniIconsYellow = { fg = "muted", bg = "base" },
+          BufferLineMiniIconsGreen = { fg = "muted", bg = "base" },
+
+          BufferLineWarning = { fg = "muted", bg = "base" },
+          BufferLineWarningDiagnostic = { fg = "muted", bg = "base" },
+          BufferLineWarningDiagnosticSelected = { fg = "gold", bold = true },
+          BufferLineError = { fg = "muted", bg = "base" },
+          BufferLineErrorDiagnostic = { fg = "muted", bg = "base" },
+          BufferLineErrorDiagnosticSelected = { fg = "love", bold = true },
+
+          BufferLineOffsetSeparator = { fg = "highlight_med" },
+          NeoTreeWinSeparator = { fg = "highlight_med" },
         },
       })
     end,
