@@ -10,6 +10,9 @@ return {
         extend_background_behind_borders = false,
 
         highlight_groups = {
+          ["@property"] = { italic = false },
+          ["@variable"] = { italic = false },
+
           NeoTreeFloatBorder = { fg = "muted", bg = "base" },
           NeoTreeFloatNormal = { bg = "base" },
           NeoTreeFloatTitle = { bg = "base" },
@@ -52,9 +55,6 @@ return {
           WhichKeyNormal = { bg = "base" },
           WhichKeyTitle = { bg = "none" },
 
-          ["@property"] = { italic = false },
-          ["@variable"] = { italic = false },
-
           -- Comment = { fg = "foam" },
           -- VertSplit = { fg = "muted", bg = "muted" },
 
@@ -65,6 +65,9 @@ return {
           BufferLineSeparator = { fg = "highlight_med", bg = "base" },
           BufferLineDevIconDefault = { fg = "muted", bg = "base" },
           BufferLinePick = { fg = "love", bg = "base", bold = true },
+          BufferLineTruncMarker = { fg = "highlight_med", bg = "base" },
+          BufferLineDuplicate = { fg = "highlight_high", bg = "base" },
+          BufferLineFill = { fg = "highlight_high", bg = "base" },
 
           BufferLineMiniIconsAzure = { fg = "muted", bg = "base" },
           BufferLineMiniIconsRed = { fg = "muted", bg = "base" },
@@ -72,6 +75,9 @@ return {
           BufferLineMiniIconsCyan = { fg = "muted", bg = "base" },
           BufferLineMiniIconsYellow = { fg = "muted", bg = "base" },
           BufferLineMiniIconsGreen = { fg = "muted", bg = "base" },
+          BufferLineMiniIconsOrange = { fg = "muted", bg = "base" },
+          BufferLineMiniIconsPurple = { fg = "muted", bg = "base" },
+          BufferLineMiniIconsGrey = { fg = "muted", bg = "base" },
 
           BufferLineWarning = { fg = "muted", bg = "base" },
           BufferLineWarningDiagnostic = { fg = "muted", bg = "base" },
@@ -82,6 +88,7 @@ return {
 
           BufferLineOffsetSeparator = { fg = "highlight_med" },
           NeoTreeWinSeparator = { fg = "highlight_med" },
+          StatusLineTerm = { fg = "iris", bg = "base" },
         },
       })
     end,
