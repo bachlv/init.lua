@@ -13,6 +13,8 @@ return {
           ["@property"] = { italic = false },
           ["@variable"] = { italic = false },
 
+          NormalFloat = { bg = "base" },
+
           NeoTreeFloatBorder = { fg = "muted", bg = "base" },
           NeoTreeFloatNormal = { bg = "base" },
           NeoTreeFloatTitle = { bg = "base" },
@@ -23,7 +25,6 @@ return {
           NotifyWARNBorder = { bg = "base" },
 
           FzfLuaBackdrop = { bg = "base" },
-          FzfLuaNormal = { bg = "base" },
           FzfLuaTitle = { bg = "base" },
 
           SnacksDashboardHeader = { fg = "muted" },
